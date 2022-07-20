@@ -1,15 +1,13 @@
 <html lang="en">
 <head>
-    
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./components/footer.css">
     <link rel="stylesheet" href="./terms.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="navbar" style="border: 2px solid black;display: flex;justify-content: space-around;position: sticky;top: 0;">
-        <h2>Login</h2>
-        <h2>SignUp</h2>  
-    </div>
     
+    <nav id="kanavbar"></nav>
     <div id="nsMain">
         <div style="padding-right: 25px; scroll-behavior: smooth;
          " id="nsSidebar">
@@ -246,8 +244,19 @@
             </section>
         </div>
     </div>
-    <script>
-        let section = document.querySelectorAll("section") ; 
+    <footer id="kafooter"></footer>
+    
+
+  
+    
+</body>
+</html>
+<script type="module">
+    import { navbar, footer, trust, boximg, silonavbar } from "./components/navbar.js" ;
+    document.getElementById("kanavbar").innerHTML = navbar() ; 
+    document.getElementById("kafooter").innerHTML = footer() ; 
+
+    let section = document.querySelectorAll("section") ; 
         let li = document.querySelectorAll(".links") ; 
         function activeMenu(){
             let len = section.length ; 
@@ -258,49 +267,4 @@
         }
         activeMenu() ; 
         window.addEventListener("scroll",activeMenu)
-    </script>
-
-    <!-- <script>
-        let section = document.querySelectorAll("section") ; 
-        let secondNavbar = document.querySelectorAll(".lwptoc_itemWrap a") ; 
-    
-        window.onscroll = () =>{
-            section.forEach(sec =>{
-                let top = window.scrollY ; 
-                let offset = sec.offsetTop ; 
-                let height = sec.offsetHeight- 150 ; 
-                let id = sec.getAttribute("id") ; 
-    
-                if(top>=offset&&top<offset+height){
-                    secondNavbar.forEach(links =>{
-                        links.classList.remove("active") ; 
-                        document.querySelector(".lwptoc_itemWrap a[href*=" + id + "]").classList.add("active")
-                    })
-                }
-            })
-        }
-        
-    </script> -->
-    <!-- <script>
-        let span = document.querySelectorAll(".lwptoc_items a span") ; 
-        let sN = document.querySelectorAll("#nsSidebar a") ; 
-    
-        window.onscroll = () =>{
-            span.forEach(sec =>{
-                let top = window.scrollY ; 
-                let offset = sec.offsetTop ; 
-                let height = sec.offsetHeight- 150 ; 
-                let id = sec.getAttribute("id") ; 
-    
-                if(top>=offset&&top<offset+height){
-                    sN.forEach(links =>{
-                        links.classList.remove("active") ; 
-                        document.querySelector("#nsSidebar a[href*=" + id + "]").classList.add("active")
-                    })
-                }
-            })
-        }
-    </script> -->
-    
-</body>
-</html>
+</script>

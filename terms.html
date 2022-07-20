@@ -1,14 +1,12 @@
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./components/footer.css">
     <link rel="stylesheet" href="./terms.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="navbar" style="border: 2px solid black;display: flex;justify-content: space-around;position: sticky;top: 0;">
-        <h2>Login</h2>
-        <h2>SignUp</h2>
-          
-    </div>
+    <nav id="kanavbar"></nav>
 <div id="nsMain">
     <div id="nsSidebar" style="line-height: 10px;">
         <div  style="font-size:18px;margin-bottom: 40px;">
@@ -272,11 +270,17 @@
         </section>
     </div>
 </div>
+<footer id="kafooter"></footer>
 
 
 
 </body>
 </html>
+<script type="module">
+    import { navbar, footer, trust, boximg, silonavbar } from "./components/navbar.js" ;
+    document.getElementById("kanavbar").innerHTML = navbar() ; 
+    document.getElementById("kafooter").innerHTML = footer() ; 
+</script>
 <script>
     let section = document.querySelectorAll("section") ; 
         let secondNavbar = document.querySelectorAll("#nsSidebar a") ; 
