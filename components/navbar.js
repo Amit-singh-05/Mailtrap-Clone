@@ -277,8 +277,8 @@ let footer = () => {
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Changelog</a></li>
                 <li><a href="#">Status</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="./terms.html">Terms of Service</a></li>
+                <li><a href="./privacy.html">Privacy Policy</a></li>
                 <li><a href="#">Navigational Information</a></li>
                 <li><a href="#">DPA</a></li>
             </ul>
