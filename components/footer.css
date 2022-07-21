@@ -3,12 +3,6 @@
     --color-lightgreen: rgb(34,209,114);
 }
 
-* {
-	margin: 0;
-	/* padding: 0; */
-	box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 #kafooter{
     width: 100%;
     height: 350px;
