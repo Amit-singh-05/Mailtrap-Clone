@@ -50,12 +50,13 @@ border: transparent;
 border-radius: 5px;
 cursor: pointer;
 font-weight: bolder;
+margin-top: 10px;
 }
 #amsignupbuton:hover{
 background-color: #28ec80;
 }
 #am3{
-width:55%;
+width:75%;
 margin: auto;
 }
 a{
