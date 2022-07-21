@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #ammain{
     display: flex;
     gap: 50px;
@@ -91,4 +95,16 @@ display: grid;
 }
 #amimg>img{
     margin: auto;
+}
+
+::-webkit-scrollbar{
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #1A2E44;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: var(--color-lightgreen);
 }

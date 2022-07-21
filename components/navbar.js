@@ -8,7 +8,7 @@ let navbar = () => {
 </div>
 <div id="kacontainer">
     <div class="kamenubar">
-        <a href="./home.html"
+        <a href="./index.html"
             ><img
                 src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg"
                 alt="mailtrap"
@@ -25,7 +25,7 @@ let navbar = () => {
                 <div class="dropdown_menu">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="./QAauto.html">
                                 <div class="kaflex">
                                     <div>
                                         <img
@@ -41,7 +41,7 @@ let navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="./HTMLcheck.html"
                                 ><div class="kaflex">
                                     <div>
                                         <img
@@ -57,7 +57,7 @@ let navbar = () => {
                             >
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="./FakeSMTP.html"
                                 ><div class="kaflex">
                                     <div>
                                         <img
@@ -73,7 +73,7 @@ let navbar = () => {
                             >
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="./MailtrapAPI.html"
                                 ><div class="kaflex">
                                     <div>
                                         <img
@@ -176,8 +176,8 @@ let navbar = () => {
             </li>
         </ul>
         <div id="kabutton">
-            <a href="#"><button class="kalog">Log In</button></a>
-            <a href="#"><button class="kasign">Sign Up</button></a>
+            <a href="./login.html"><button class="kalog">Log In</button></a>
+            <a href="./signup.html"><button class="kasign">Sign Up</button></a>
         </div>
     </div>
 </div>`;
@@ -187,14 +187,14 @@ let silonavbar = () => {
 	return `
 <div id="kacontainer">
     <div class="kamenubar">
-        <a href="./home.html"
+        <a href="./index.html"
             ><img
                 src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg"
                 alt="mailtrap"
         /></a>
         <div id="kabutton">
-            <a href="#"><button class="kalog">Log In</button></a>
-            <a href="#"><button class="kasign">Sign Up</button></a>
+            <a href="./login.html"><button class="kalog">Log In</button></a>
+            <a href="./signup.html"><button class="kasign">Sign Up</button></a>
         </div>
     </div>
 </div>`;
@@ -345,7 +345,7 @@ let boximg = () => {
     <h1>In 3 Clicks</h1>
 
     <div>
-        <a href="#"><button>Sign Up Now</button></a>
+        <a href="./signup.html"><button>Sign Up Now</button></a>
     </div>
 </div>
 <div>
@@ -356,4 +356,114 @@ let boximg = () => {
 </div>`
 }
 
-export { navbar, footer, trust, boximg, silonavbar };
+let bestclient = () => {
+    return `
+    <h1>From our #BestClientEver</h1>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NTAuNjcxIiBoZWlnaHQ9IjExNW1tIiB2aWV3Qm94PSIwIDAgMzM4IDMyNS45OSI+PHBhdGggZD0iTTEzNy4wNiAwQzIyNi43NSAwIDMzOCA4MC42MSAzMzggMTcwLjYzUzI1Mi4xIDMyNiAxNjIuNCAzMjYgMCAyNTMgMCAxNjMgNDcuMzcgMCAxMzcuMDYgMHoiIGZpbGw9IiNmOWMyNzMiLz48L3N2Zz4=" alt="">
+    <div class="kasiko">
+        <button class="pre-btn">
+            <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyLjUzbW0iIGhlaWdodD0iNG1tIiB2aWV3Qm94PSIwIDAgNy4xNyAxMS4zNCI+PHBhdGggZD0iTTEsNS43NGMyLjMyLDIuMjYsMi43MiwyLDUsNC42OVoiIHN0eWxlPSJmaWxsOiAjZmZmIi8+PHBhdGggZD0iTTEuNDUsNC44M0MzLjI0LDYuNDksNSw3Ljc5LDYuNyw5LjYzQTEsMSwwLDEsMSw1LjI2LDExQzMuNzMsOS4zMSwyLDguMS4zNyw2LjUtLjU4LDUuNjQuNSw0LDEuNDUsNC44M1oiIHN0eWxlPSJmaWxsOiAjMWEyZTQ0Ii8+PHBhdGggZD0iTTEuNDQsNS4zMkMzLjg4LDMuMTcsMy42MSwzLjU5LDYuMjcsMS4xNFoiIHN0eWxlPSJmaWxsOiAjZmZmIi8+PHBhdGggZD0iTTEsNC40MkMyLjU5LDMsNC4xNywxLjY3LDUuOC4yNWMxLS45MSwyLC45Mi44OSwxLjkxQzUuMDcsMy41OCwzLjQ5LDQuOSwxLjg2LDYuMzMuOTMsNy4xMi0uMDgsNS4zLDEsNC40MloiIHN0eWxlPSJmaWxsOiAjMWEyZTQ0Ii8+PC9zdmc+"
+                alt=""
+            />
+        </button>
+        <button class="nxt-btn">
+            <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyLjUzbW0iIGhlaWdodD0iNG1tIiB2aWV3Qm94PSIwIDAgNy4xNyAxMS4zNCI+PHBhdGggZD0iTTYuMTcsNS43NGMtMi4zMSwyLjI2LTIuNzEsMi01LDQuNjlaIiBzdHlsZT0iZmlsbDogI2ZmZiIvPjxwYXRoIGQ9Ik01LjcyLDQuODNjLTEuNzksMS42Ni0zLjU0LDMtNS4yNSw0LjhBMSwxLDAsMSwwLDEuOTIsMTFDMy40NCw5LjMxLDUuMTQsOC4xLDYuOCw2LjUsNy43Niw1LjY0LDYuNjcsNCw1LjcyLDQuODNaIiBzdHlsZT0iZmlsbDogIzFhMmU0NCIvPjxwYXRoIGQ9Ik01LjczLDUuMzJDMy4yOSwzLjE3LDMuNTYsMy41OS45LDEuMTRaIiBzdHlsZT0iZmlsbDogI2ZmZiIvPjxwYXRoIGQ9Ik02LjIsNC40MkM0LjU4LDMsMywxLjY3LDEuMzcuMjVjLTEtLjkxLTIsLjkyLS44OSwxLjkxQzIuMSwzLjU4LDMuNjgsNC45LDUuMzEsNi4zMyw2LjI0LDcuMTIsNy4yNSw1LjMsNi4yLDQuNDJaIiBzdHlsZT0iZmlsbDogIzFhMmU0NCIvPjwvc3ZnPg=="
+                alt=""
+            />
+        </button>
+        <div class="kacard-container">
+            <div class="kacard">
+                <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJzaW5nbGUtdGVzdGltb25pYWxfX2ljb24gZC1ibG9jayBwb3NpdGlvbi1hYnNvbHV0ZSIgeG1sbnM6eGxpbms9Imh0dHBzOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MCA1MiI+PGRlZnM+PGNsaXBQYXRoIGNsYXNzPSJhIj48cmVjdCB5PSIxIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHN0eWxlPSJmaWxsOiBub25lOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6bm9uZTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTMuMTgsMjUuMTZhMjMuNSwyMy41LDAsMCwwLDcuMjMsMjEuMDZjNS4yLDQuNTQsMTEuODgsNS44NCwxOC4zNCw1Ljc4QTI0LjMzLDI0LjMzLDAsMCwwLDQwLDQ5LjcsMTcuNzcsMTcuNzcsMCwwLDAsNDguNjksNDBjMi43NC03LjI1LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM4LDlDMzMuMjUsNSwxMS4yOS0zLjU5LDQuMjIsMTkiIHN0eWxlPSJmaWxsOiByZ2IoMjYsIDQ2LCA2OCk7IC0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDojY2FjNmJmOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiLz48cGF0aCBkPSJNLjc3LDIxLjg0QTIzLjQ4LDIzLjQ4LDAsMCwwLDgsNDIuODVjNS4yLDQuNDksMTEuODgsNS44NCwxOC4zNSw1Ljc4YTI0LjMxLDI0LjMxLDAsMCwwLDExLjI4LTIuMywxNy43NywxNy43NywwLDAsMCw4LjY1LTkuNjZjMi43NC03LjI0LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM1LjYsNS42N0MzMC44OSwxLjYzLDguOTMtNi45MSwxLjgxLDE1LjcyIiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2U4ZTZlMzsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS4yOCwyMS43M2MtMS43NiwxMS45MSw1LDIzLjE0LDE2LjM3LDI2LjQsMTAuOSwzLjA4LDI1LjI1LDEuMTIsMzAtMTAuNzlDNTEuMjEsMjYuMTEsNDQuNzQsMTIuMjQsMzYsNS4xMSwzMS43MSwxLjY4LDI1LjU4LDAsMjAuMjEsMCwxMC42My4wNiw0LjI3LDYuNTcsMS4zNywxNS41Yy0uMjcuNzMuNjYsMS4zNS45My40NUM0Ljc3LDguNDgsOS43NSwyLjQ3LDE3Ljc1LDEuNTJBMjYuMjIsMjYuMjIsMCwwLDEsMzMsNC43MkM0MC42OSw4LjkzLDQ2LjI4LDE5LDQ3LDI3LjhjLjQ5LDYuNDUtMS45MiwxMi43NC03LjE3LDE2LjUxLTQuODgsMy40OC0xMS4xOCw0LTE2LjkzLDMuNTMtNi0uNS0xMi0yLjUyLTE2LjIxLTcuMThBMjMuMjgsMjMuMjgsMCwwLDEsMS4zMiwyMS45QzEuNDMsMjEsLjM5LDIwLjg5LjI4LDIxLjczWiIgc3R5bGU9ImZpbGw6IHJnYigyNiwgNDYsIDY4KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNjYWM2YmY7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxnIHN0eWxlPSJjbGlwLXBhdGg6IHVybCguYSkiPjxnPjxwYXRoIGQ9Ik0zLjE4LDI1LjE5YTIyLjEsMjIuMSwwLDAsMCw3LjIzLDIwLjI1YzUuMiw0LjM3LDExLjg4LDUuNjEsMTguMzQsNS41NkEyNS4xNSwyNS4xNSwwLDAsMCw0MCw0OC43OWExNy4zMywxNy4zMywwLDAsMCw4LjY1LTkuMjljMi43NC03LC41NS0xNS0zLTIwLjg0YTM1LjI1LDM1LjI1LDAsMCwwLTcuNzItOUMzMy4yNSw1LjgxLDExLjI5LTIuNDYsNC4yMiwxOS4zIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS43NywyMkEyMi4wOCwyMi4wOCwwLDAsMCw4LDQyLjJjNS4yLDQuMzIsMTEuODgsNS42MSwxOC4zNSw1LjU2YTI1LjExLDI1LjExLDAsMCwwLDExLjI4LTIuMjEsMTcuMzMsMTcuMzMsMCwwLDAsOC42NS05LjI5YzIuNzQtNywuNTUtMTUtMy0yMC44NGEzNS4yNSwzNS4yNSwwLDAsMC03LjcyLTlDMzAuODksMi41Nyw4LjkzLTUuNjQsMS44MSwxNi4xMiIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNlOGU2ZTM7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxwYXRoIGQ9Ik0uMjgsMjEuOUEyMi40NiwyMi40NiwwLDAsMCwxNi42NSw0Ny4yN2MxMC45LDMsMjUuMjUsMS4wOCwzMC0xMC4zNiw0LjU1LTEwLjgtMS45MS0yNC4xNC0xMC42OC0zMUMzMS43MSwyLjYyLDI1LjU4LDEsMjAuMjEsMSwxMC42MywxLjA1LDQuMjgsNy4zMiwxLjM3LDE1LjljLS4yNy43LjY2LDEuMy45My40M0M0Ljc3LDkuMTUsOS43NSwzLjM4LDE3Ljc1LDIuNDZBMjcsMjcsMCwwLDEsMzMsNS41NEM0MC42OSw5LjU5LDQ2LjI4LDE5LjMsNDcsMjcuNzNBMTcuMjEsMTcuMjEsMCwwLDEsMzkuODIsNDMuNkMzNC45NCw0NywyOC42NSw0Ny40NCwyMi45LDQ3Yy02LS40OC0xMi0yLjQzLTE2LjIxLTYuOTFhMjEuNzQsMjEuNzQsMCwwLDEtNS4zNy0xOEMxLjQzLDIxLjE5LjM5LDIxLjA5LjI4LDIxLjlaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTTMzLDIwLjI4YTcuMjYsNy4yNiwwLDAsMS0yLjEyLjU5LDMuNzcsMy43NywwLDAsMCwxLjYyLTIuMDksNy4zNyw3LjM3LDAsMCwxLTIuMzQuOTIsMy43MywzLjczLDAsMCwwLTEuMjMtLjg5LDMuNTMsMy41MywwLDAsMC0xLjQ3LS4zMSwzLjc0LDMuNzQsMCwwLDAtMy42OSwzLjc5LDQuMTIsNC4xMiwwLDAsMCwuMS44NiwxMC4zNiwxMC4zNiwwLDAsMS03LjYxLTQsMy44OCwzLjg4LDAsMCwwLDEuMTQsNS4wNywzLjY3LDMuNjcsMCwwLDEtMS42Ny0uNDl2LjA1YTMuNzgsMy43OCwwLDAsMCwzLDMuNzIsNCw0LDAsMCwxLTEsLjEyLDUuMzYsNS4zNiwwLDAsMS0uNy0uMDUsMy43LDMuNywwLDAsMCwzLjQ1LDIuNjIsNy4yNiw3LjI2LDAsMCwxLTQuNTgsMS42MkE2LjU1LDYuNTUsMCwwLDEsMTUsMzEuOGExMC4yNSwxMC4yNSwwLDAsMCw1LjY3LDEuN2M2Ljc4LDAsMTAuNDktNS43NiwxMC40OS0xMC43NywwLS4xNiwwLS4zMywwLS40OUE4LDgsMCwwLDAsMzMsMjAuMjhaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9nPjwvZz48L3N2Zz4="
+                    al
+                    t=""
+                /><br />
+                <span class="kaname">Joshua Anderton</span>
+                <span class="katwittername">@joshuaaderton</span>
+                <p>
+                    Just signed up for @Mailtrap and I'm loving it. So easy to set up.
+                    Provides so much peace of mind. Ahh just love it.
+                </p>
+                <span class="katwittername">7:38 PM - Jan 13, 2021</span>
+            </div>
+            <div class="kacard">
+                <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJzaW5nbGUtdGVzdGltb25pYWxfX2ljb24gZC1ibG9jayBwb3NpdGlvbi1hYnNvbHV0ZSIgeG1sbnM6eGxpbms9Imh0dHBzOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MCA1MiI+PGRlZnM+PGNsaXBQYXRoIGNsYXNzPSJhIj48cmVjdCB5PSIxIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHN0eWxlPSJmaWxsOiBub25lOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6bm9uZTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTMuMTgsMjUuMTZhMjMuNSwyMy41LDAsMCwwLDcuMjMsMjEuMDZjNS4yLDQuNTQsMTEuODgsNS44NCwxOC4zNCw1Ljc4QTI0LjMzLDI0LjMzLDAsMCwwLDQwLDQ5LjcsMTcuNzcsMTcuNzcsMCwwLDAsNDguNjksNDBjMi43NC03LjI1LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM4LDlDMzMuMjUsNSwxMS4yOS0zLjU5LDQuMjIsMTkiIHN0eWxlPSJmaWxsOiByZ2IoMjYsIDQ2LCA2OCk7IC0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDojY2FjNmJmOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiLz48cGF0aCBkPSJNLjc3LDIxLjg0QTIzLjQ4LDIzLjQ4LDAsMCwwLDgsNDIuODVjNS4yLDQuNDksMTEuODgsNS44NCwxOC4zNSw1Ljc4YTI0LjMxLDI0LjMxLDAsMCwwLDExLjI4LTIuMywxNy43NywxNy43NywwLDAsMCw4LjY1LTkuNjZjMi43NC03LjI0LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM1LjYsNS42N0MzMC44OSwxLjYzLDguOTMtNi45MSwxLjgxLDE1LjcyIiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2U4ZTZlMzsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS4yOCwyMS43M2MtMS43NiwxMS45MSw1LDIzLjE0LDE2LjM3LDI2LjQsMTAuOSwzLjA4LDI1LjI1LDEuMTIsMzAtMTAuNzlDNTEuMjEsMjYuMTEsNDQuNzQsMTIuMjQsMzYsNS4xMSwzMS43MSwxLjY4LDI1LjU4LDAsMjAuMjEsMCwxMC42My4wNiw0LjI3LDYuNTcsMS4zNywxNS41Yy0uMjcuNzMuNjYsMS4zNS45My40NUM0Ljc3LDguNDgsOS43NSwyLjQ3LDE3Ljc1LDEuNTJBMjYuMjIsMjYuMjIsMCwwLDEsMzMsNC43MkM0MC42OSw4LjkzLDQ2LjI4LDE5LDQ3LDI3LjhjLjQ5LDYuNDUtMS45MiwxMi43NC03LjE3LDE2LjUxLTQuODgsMy40OC0xMS4xOCw0LTE2LjkzLDMuNTMtNi0uNS0xMi0yLjUyLTE2LjIxLTcuMThBMjMuMjgsMjMuMjgsMCwwLDEsMS4zMiwyMS45QzEuNDMsMjEsLjM5LDIwLjg5LjI4LDIxLjczWiIgc3R5bGU9ImZpbGw6IHJnYigyNiwgNDYsIDY4KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNjYWM2YmY7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxnIHN0eWxlPSJjbGlwLXBhdGg6IHVybCguYSkiPjxnPjxwYXRoIGQ9Ik0zLjE4LDI1LjE5YTIyLjEsMjIuMSwwLDAsMCw3LjIzLDIwLjI1YzUuMiw0LjM3LDExLjg4LDUuNjEsMTguMzQsNS41NkEyNS4xNSwyNS4xNSwwLDAsMCw0MCw0OC43OWExNy4zMywxNy4zMywwLDAsMCw4LjY1LTkuMjljMi43NC03LC41NS0xNS0zLTIwLjg0YTM1LjI1LDM1LjI1LDAsMCwwLTcuNzItOUMzMy4yNSw1LjgxLDExLjI5LTIuNDYsNC4yMiwxOS4zIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS43NywyMkEyMi4wOCwyMi4wOCwwLDAsMCw4LDQyLjJjNS4yLDQuMzIsMTEuODgsNS42MSwxOC4zNSw1LjU2YTI1LjExLDI1LjExLDAsMCwwLDExLjI4LTIuMjEsMTcuMzMsMTcuMzMsMCwwLDAsOC42NS05LjI5YzIuNzQtNywuNTUtMTUtMy0yMC44NGEzNS4yNSwzNS4yNSwwLDAsMC03LjcyLTlDMzAuODksMi41Nyw4LjkzLTUuNjQsMS44MSwxNi4xMiIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNlOGU2ZTM7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxwYXRoIGQ9Ik0uMjgsMjEuOUEyMi40NiwyMi40NiwwLDAsMCwxNi42NSw0Ny4yN2MxMC45LDMsMjUuMjUsMS4wOCwzMC0xMC4zNiw0LjU1LTEwLjgtMS45MS0yNC4xNC0xMC42OC0zMUMzMS43MSwyLjYyLDI1LjU4LDEsMjAuMjEsMSwxMC42MywxLjA1LDQuMjgsNy4zMiwxLjM3LDE1LjljLS4yNy43LjY2LDEuMy45My40M0M0Ljc3LDkuMTUsOS43NSwzLjM4LDE3Ljc1LDIuNDZBMjcsMjcsMCwwLDEsMzMsNS41NEM0MC42OSw5LjU5LDQ2LjI4LDE5LjMsNDcsMjcuNzNBMTcuMjEsMTcuMjEsMCwwLDEsMzkuODIsNDMuNkMzNC45NCw0NywyOC42NSw0Ny40NCwyMi45LDQ3Yy02LS40OC0xMi0yLjQzLTE2LjIxLTYuOTFhMjEuNzQsMjEuNzQsMCwwLDEtNS4zNy0xOEMxLjQzLDIxLjE5LjM5LDIxLjA5LjI4LDIxLjlaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTTMzLDIwLjI4YTcuMjYsNy4yNiwwLDAsMS0yLjEyLjU5LDMuNzcsMy43NywwLDAsMCwxLjYyLTIuMDksNy4zNyw3LjM3LDAsMCwxLTIuMzQuOTIsMy43MywzLjczLDAsMCwwLTEuMjMtLjg5LDMuNTMsMy41MywwLDAsMC0xLjQ3LS4zMSwzLjc0LDMuNzQsMCwwLDAtMy42OSwzLjc5LDQuMTIsNC4xMiwwLDAsMCwuMS44NiwxMC4zNiwxMC4zNiwwLDAsMS03LjYxLTQsMy44OCwzLjg4LDAsMCwwLDEuMTQsNS4wNywzLjY3LDMuNjcsMCwwLDEtMS42Ny0uNDl2LjA1YTMuNzgsMy43OCwwLDAsMCwzLDMuNzIsNCw0LDAsMCwxLTEsLjEyLDUuMzYsNS4zNiwwLDAsMS0uNy0uMDUsMy43LDMuNywwLDAsMCwzLjQ1LDIuNjIsNy4yNiw3LjI2LDAsMCwxLTQuNTgsMS42MkE2LjU1LDYuNTUsMCwwLDEsMTUsMzEuOGExMC4yNSwxMC4yNSwwLDAsMCw1LjY3LDEuN2M2Ljc4LDAsMTAuNDktNS43NiwxMC40OS0xMC43NywwLS4xNiwwLS4zMywwLS40OUE4LDgsMCwwLDAsMzMsMjAuMjhaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9nPjwvZz48L3N2Zz4="
+                    al
+                    t=""
+                /><br />
+                <span class="kaname">DeveloperMitch</span>
+                <span class="katwittername">@mitchellfinlay</span>
+                <p>
+                    After all these years of web development, how have I only JUST
+                    started using @Mailtrap. I had heard about it, but never got round
+                    to using it. An awesome way of testing emails.
+                </p>
+                <span class="katwittername">1:25 PM - Nov 07, 2020</span>
+            </div>
+            <div class="kacard">
+                <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJzaW5nbGUtdGVzdGltb25pYWxfX2ljb24gZC1ibG9jayBwb3NpdGlvbi1hYnNvbHV0ZSIgeG1sbnM6eGxpbms9Imh0dHBzOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MCA1MiI+PGRlZnM+PGNsaXBQYXRoIGNsYXNzPSJhIj48cmVjdCB5PSIxIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHN0eWxlPSJmaWxsOiBub25lOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6bm9uZTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTMuMTgsMjUuMTZhMjMuNSwyMy41LDAsMCwwLDcuMjMsMjEuMDZjNS4yLDQuNTQsMTEuODgsNS44NCwxOC4zNCw1Ljc4QTI0LjMzLDI0LjMzLDAsMCwwLDQwLDQ5LjcsMTcuNzcsMTcuNzcsMCwwLDAsNDguNjksNDBjMi43NC03LjI1LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM4LDlDMzMuMjUsNSwxMS4yOS0zLjU5LDQuMjIsMTkiIHN0eWxlPSJmaWxsOiByZ2IoMjYsIDQ2LCA2OCk7IC0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDojY2FjNmJmOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiLz48cGF0aCBkPSJNLjc3LDIxLjg0QTIzLjQ4LDIzLjQ4LDAsMCwwLDgsNDIuODVjNS4yLDQuNDksMTEuODgsNS44NCwxOC4zNSw1Ljc4YTI0LjMxLDI0LjMxLDAsMCwwLDExLjI4LTIuMywxNy43NywxNy43NywwLDAsMCw4LjY1LTkuNjZjMi43NC03LjI0LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM1LjYsNS42N0MzMC44OSwxLjYzLDguOTMtNi45MSwxLjgxLDE1LjcyIiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2U4ZTZlMzsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS4yOCwyMS43M2MtMS43NiwxMS45MSw1LDIzLjE0LDE2LjM3LDI2LjQsMTAuOSwzLjA4LDI1LjI1LDEuMTIsMzAtMTAuNzlDNTEuMjEsMjYuMTEsNDQuNzQsMTIuMjQsMzYsNS4xMSwzMS43MSwxLjY4LDI1LjU4LDAsMjAuMjEsMCwxMC42My4wNiw0LjI3LDYuNTcsMS4zNywxNS41Yy0uMjcuNzMuNjYsMS4zNS45My40NUM0Ljc3LDguNDgsOS43NSwyLjQ3LDE3Ljc1LDEuNTJBMjYuMjIsMjYuMjIsMCwwLDEsMzMsNC43MkM0MC42OSw4LjkzLDQ2LjI4LDE5LDQ3LDI3LjhjLjQ5LDYuNDUtMS45MiwxMi43NC03LjE3LDE2LjUxLTQuODgsMy40OC0xMS4xOCw0LTE2LjkzLDMuNTMtNi0uNS0xMi0yLjUyLTE2LjIxLTcuMThBMjMuMjgsMjMuMjgsMCwwLDEsMS4zMiwyMS45QzEuNDMsMjEsLjM5LDIwLjg5LjI4LDIxLjczWiIgc3R5bGU9ImZpbGw6IHJnYigyNiwgNDYsIDY4KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNjYWM2YmY7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxnIHN0eWxlPSJjbGlwLXBhdGg6IHVybCguYSkiPjxnPjxwYXRoIGQ9Ik0zLjE4LDI1LjE5YTIyLjEsMjIuMSwwLDAsMCw3LjIzLDIwLjI1YzUuMiw0LjM3LDExLjg4LDUuNjEsMTguMzQsNS41NkEyNS4xNSwyNS4xNSwwLDAsMCw0MCw0OC43OWExNy4zMywxNy4zMywwLDAsMCw4LjY1LTkuMjljMi43NC03LC41NS0xNS0zLTIwLjg0YTM1LjI1LDM1LjI1LDAsMCwwLTcuNzItOUMzMy4yNSw1LjgxLDExLjI5LTIuNDYsNC4yMiwxOS4zIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS43NywyMkEyMi4wOCwyMi4wOCwwLDAsMCw4LDQyLjJjNS4yLDQuMzIsMTEuODgsNS42MSwxOC4zNSw1LjU2YTI1LjExLDI1LjExLDAsMCwwLDExLjI4LTIuMjEsMTcuMzMsMTcuMzMsMCwwLDAsOC42NS05LjI5YzIuNzQtNywuNTUtMTUtMy0yMC44NGEzNS4yNSwzNS4yNSwwLDAsMC03LjcyLTlDMzAuODksMi41Nyw4LjkzLTUuNjQsMS44MSwxNi4xMiIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNlOGU2ZTM7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxwYXRoIGQ9Ik0uMjgsMjEuOUEyMi40NiwyMi40NiwwLDAsMCwxNi42NSw0Ny4yN2MxMC45LDMsMjUuMjUsMS4wOCwzMC0xMC4zNiw0LjU1LTEwLjgtMS45MS0yNC4xNC0xMC42OC0zMUMzMS43MSwyLjYyLDI1LjU4LDEsMjAuMjEsMSwxMC42MywxLjA1LDQuMjgsNy4zMiwxLjM3LDE1LjljLS4yNy43LjY2LDEuMy45My40M0M0Ljc3LDkuMTUsOS43NSwzLjM4LDE3Ljc1LDIuNDZBMjcsMjcsMCwwLDEsMzMsNS41NEM0MC42OSw5LjU5LDQ2LjI4LDE5LjMsNDcsMjcuNzNBMTcuMjEsMTcuMjEsMCwwLDEsMzkuODIsNDMuNkMzNC45NCw0NywyOC42NSw0Ny40NCwyMi45LDQ3Yy02LS40OC0xMi0yLjQzLTE2LjIxLTYuOTFhMjEuNzQsMjEuNzQsMCwwLDEtNS4zNy0xOEMxLjQzLDIxLjE5LjM5LDIxLjA5LjI4LDIxLjlaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTTMzLDIwLjI4YTcuMjYsNy4yNiwwLDAsMS0yLjEyLjU5LDMuNzcsMy43NywwLDAsMCwxLjYyLTIuMDksNy4zNyw3LjM3LDAsMCwxLTIuMzQuOTIsMy43MywzLjczLDAsMCwwLTEuMjMtLjg5LDMuNTMsMy41MywwLDAsMC0xLjQ3LS4zMSwzLjc0LDMuNzQsMCwwLDAtMy42OSwzLjc5LDQuMTIsNC4xMiwwLDAsMCwuMS44NiwxMC4zNiwxMC4zNiwwLDAsMS03LjYxLTQsMy44OCwzLjg4LDAsMCwwLDEuMTQsNS4wNywzLjY3LDMuNjcsMCwwLDEtMS42Ny0uNDl2LjA1YTMuNzgsMy43OCwwLDAsMCwzLDMuNzIsNCw0LDAsMCwxLTEsLjEyLDUuMzYsNS4zNiwwLDAsMS0uNy0uMDUsMy43LDMuNywwLDAsMCwzLjQ1LDIuNjIsNy4yNiw3LjI2LDAsMCwxLTQuNTgsMS42MkE2LjU1LDYuNTUsMCwwLDEsMTUsMzEuOGExMC4yNSwxMC4yNSwwLDAsMCw1LjY3LDEuN2M2Ljc4LDAsMTAuNDktNS43NiwxMC40OS0xMC43NywwLS4xNiwwLS4zMywwLS40OUE4LDgsMCwwLDAsMzMsMjAuMjhaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9nPjwvZz48L3N2Zz4="
+                    al
+                    t=""
+                /><br />
+                <span class="kaname">Alessandro Rodi</span>
+                <span class="katwittername">@coorasse</span>
+                <p>
+                    I love @Mailtrap. It removes all the asshole of configuring email
+                    servers in test environments. Great service! Is totally worth your
+                    money!
+                </p>
+                <span class="katwittername">1:15 PM - Oct 20, 2020</span>
+            </div>
+            <div class="kacard">
+                <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJzaW5nbGUtdGVzdGltb25pYWxfX2ljb24gZC1ibG9jayBwb3NpdGlvbi1hYnNvbHV0ZSIgeG1sbnM6eGxpbms9Imh0dHBzOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MCA1MiI+PGRlZnM+PGNsaXBQYXRoIGNsYXNzPSJhIj48cmVjdCB5PSIxIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHN0eWxlPSJmaWxsOiBub25lOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6bm9uZTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTMuMTgsMjUuMTZhMjMuNSwyMy41LDAsMCwwLDcuMjMsMjEuMDZjNS4yLDQuNTQsMTEuODgsNS44NCwxOC4zNCw1Ljc4QTI0LjMzLDI0LjMzLDAsMCwwLDQwLDQ5LjcsMTcuNzcsMTcuNzcsMCwwLDAsNDguNjksNDBjMi43NC03LjI1LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM4LDlDMzMuMjUsNSwxMS4yOS0zLjU5LDQuMjIsMTkiIHN0eWxlPSJmaWxsOiByZ2IoMjYsIDQ2LCA2OCk7IC0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDojY2FjNmJmOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiLz48cGF0aCBkPSJNLjc3LDIxLjg0QTIzLjQ4LDIzLjQ4LDAsMCwwLDgsNDIuODVjNS4yLDQuNDksMTEuODgsNS44NCwxOC4zNSw1Ljc4YTI0LjMxLDI0LjMxLDAsMCwwLDExLjI4LTIuMywxNy43NywxNy43NywwLDAsMCw4LjY1LTkuNjZjMi43NC03LjI0LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM1LjYsNS42N0MzMC44OSwxLjYzLDguOTMtNi45MSwxLjgxLDE1LjcyIiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2U4ZTZlMzsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS4yOCwyMS43M2MtMS43NiwxMS45MSw1LDIzLjE0LDE2LjM3LDI2LjQsMTAuOSwzLjA4LDI1LjI1LDEuMTIsMzAtMTAuNzlDNTEuMjEsMjYuMTEsNDQuNzQsMTIuMjQsMzYsNS4xMSwzMS43MSwxLjY4LDI1LjU4LDAsMjAuMjEsMCwxMC42My4wNiw0LjI3LDYuNTcsMS4zNywxNS41Yy0uMjcuNzMuNjYsMS4zNS45My40NUM0Ljc3LDguNDgsOS43NSwyLjQ3LDE3Ljc1LDEuNTJBMjYuMjIsMjYuMjIsMCwwLDEsMzMsNC43MkM0MC42OSw4LjkzLDQ2LjI4LDE5LDQ3LDI3LjhjLjQ5LDYuNDUtMS45MiwxMi43NC03LjE3LDE2LjUxLTQuODgsMy40OC0xMS4xOCw0LTE2LjkzLDMuNTMtNi0uNS0xMi0yLjUyLTE2LjIxLTcuMThBMjMuMjgsMjMuMjgsMCwwLDEsMS4zMiwyMS45QzEuNDMsMjEsLjM5LDIwLjg5LjI4LDIxLjczWiIgc3R5bGU9ImZpbGw6IHJnYigyNiwgNDYsIDY4KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNjYWM2YmY7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxnIHN0eWxlPSJjbGlwLXBhdGg6IHVybCguYSkiPjxnPjxwYXRoIGQ9Ik0zLjE4LDI1LjE5YTIyLjEsMjIuMSwwLDAsMCw3LjIzLDIwLjI1YzUuMiw0LjM3LDExLjg4LDUuNjEsMTguMzQsNS41NkEyNS4xNSwyNS4xNSwwLDAsMCw0MCw0OC43OWExNy4zMywxNy4zMywwLDAsMCw4LjY1LTkuMjljMi43NC03LC41NS0xNS0zLTIwLjg0YTM1LjI1LDM1LjI1LDAsMCwwLTcuNzItOUMzMy4yNSw1LjgxLDExLjI5LTIuNDYsNC4yMiwxOS4zIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS43NywyMkEyMi4wOCwyMi4wOCwwLDAsMCw4LDQyLjJjNS4yLDQuMzIsMTEuODgsNS42MSwxOC4zNSw1LjU2YTI1LjExLDI1LjExLDAsMCwwLDExLjI4LTIuMjEsMTcuMzMsMTcuMzMsMCwwLDAsOC42NS05LjI5YzIuNzQtNywuNTUtMTUtMy0yMC44NGEzNS4yNSwzNS4yNSwwLDAsMC03LjcyLTlDMzAuODksMi41Nyw4LjkzLTUuNjQsMS44MSwxNi4xMiIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNlOGU2ZTM7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxwYXRoIGQ9Ik0uMjgsMjEuOUEyMi40NiwyMi40NiwwLDAsMCwxNi42NSw0Ny4yN2MxMC45LDMsMjUuMjUsMS4wOCwzMC0xMC4zNiw0LjU1LTEwLjgtMS45MS0yNC4xNC0xMC42OC0zMUMzMS43MSwyLjYyLDI1LjU4LDEsMjAuMjEsMSwxMC42MywxLjA1LDQuMjgsNy4zMiwxLjM3LDE1LjljLS4yNy43LjY2LDEuMy45My40M0M0Ljc3LDkuMTUsOS43NSwzLjM4LDE3Ljc1LDIuNDZBMjcsMjcsMCwwLDEsMzMsNS41NEM0MC42OSw5LjU5LDQ2LjI4LDE5LjMsNDcsMjcuNzNBMTcuMjEsMTcuMjEsMCwwLDEsMzkuODIsNDMuNkMzNC45NCw0NywyOC42NSw0Ny40NCwyMi45LDQ3Yy02LS40OC0xMi0yLjQzLTE2LjIxLTYuOTFhMjEuNzQsMjEuNzQsMCwwLDEtNS4zNy0xOEMxLjQzLDIxLjE5LjM5LDIxLjA5LjI4LDIxLjlaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTTMzLDIwLjI4YTcuMjYsNy4yNiwwLDAsMS0yLjEyLjU5LDMuNzcsMy43NywwLDAsMCwxLjYyLTIuMDksNy4zNyw3LjM3LDAsMCwxLTIuMzQuOTIsMy43MywzLjczLDAsMCwwLTEuMjMtLjg5LDMuNTMsMy41MywwLDAsMC0xLjQ3LS4zMSwzLjc0LDMuNzQsMCwwLDAtMy42OSwzLjc5LDQuMTIsNC4xMiwwLDAsMCwuMS44NiwxMC4zNiwxMC4zNiwwLDAsMS03LjYxLTQsMy44OCwzLjg4LDAsMCwwLDEuMTQsNS4wNywzLjY3LDMuNjcsMCwwLDEtMS42Ny0uNDl2LjA1YTMuNzgsMy43OCwwLDAsMCwzLDMuNzIsNCw0LDAsMCwxLTEsLjEyLDUuMzYsNS4zNiwwLDAsMS0uNy0uMDUsMy43LDMuNywwLDAsMCwzLjQ1LDIuNjIsNy4yNiw3LjI2LDAsMCwxLTQuNTgsMS42MkE2LjU1LDYuNTUsMCwwLDEsMTUsMzEuOGExMC4yNSwxMC4yNSwwLDAsMCw1LjY3LDEuN2M2Ljc4LDAsMTAuNDktNS43NiwxMC40OS0xMC43NywwLS4xNiwwLS4zMywwLS40OUE4LDgsMCwwLDAsMzMsMjAuMjhaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9nPjwvZz48L3N2Zz4="
+                    al
+                    t=""
+                /><br />
+                <span class="kaname">Mr. Glass</span>
+                <span class="katwittername">@MisterGlass</span>
+                <p>
+                    Shout out to @Mailtrap, hands down the best way to handle mail
+                    sending in local/test environments.
+                </p>
+                <span class="katwittername">11:43 PM - May 21, 2020</span>
+            </div>
+            <div class="kacard">
+                <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJzaW5nbGUtdGVzdGltb25pYWxfX2ljb24gZC1ibG9jayBwb3NpdGlvbi1hYnNvbHV0ZSIgeG1sbnM6eGxpbms9Imh0dHBzOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MCA1MiI+PGRlZnM+PGNsaXBQYXRoIGNsYXNzPSJhIj48cmVjdCB5PSIxIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHN0eWxlPSJmaWxsOiBub25lOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6bm9uZTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTMuMTgsMjUuMTZhMjMuNSwyMy41LDAsMCwwLDcuMjMsMjEuMDZjNS4yLDQuNTQsMTEuODgsNS44NCwxOC4zNCw1Ljc4QTI0LjMzLDI0LjMzLDAsMCwwLDQwLDQ5LjcsMTcuNzcsMTcuNzcsMCwwLDAsNDguNjksNDBjMi43NC03LjI1LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM4LDlDMzMuMjUsNSwxMS4yOS0zLjU5LDQuMjIsMTkiIHN0eWxlPSJmaWxsOiByZ2IoMjYsIDQ2LCA2OCk7IC0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDojY2FjNmJmOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiLz48cGF0aCBkPSJNLjc3LDIxLjg0QTIzLjQ4LDIzLjQ4LDAsMCwwLDgsNDIuODVjNS4yLDQuNDksMTEuODgsNS44NCwxOC4zNSw1Ljc4YTI0LjMxLDI0LjMxLDAsMCwwLDExLjI4LTIuMywxNy43NywxNy43NywwLDAsMCw4LjY1LTkuNjZjMi43NC03LjI0LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM1LjYsNS42N0MzMC44OSwxLjYzLDguOTMtNi45MSwxLjgxLDE1LjcyIiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2U4ZTZlMzsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS4yOCwyMS43M2MtMS43NiwxMS45MSw1LDIzLjE0LDE2LjM3LDI2LjQsMTAuOSwzLjA4LDI1LjI1LDEuMTIsMzAtMTAuNzlDNTEuMjEsMjYuMTEsNDQuNzQsMTIuMjQsMzYsNS4xMSwzMS43MSwxLjY4LDI1LjU4LDAsMjAuMjEsMCwxMC42My4wNiw0LjI3LDYuNTcsMS4zNywxNS41Yy0uMjcuNzMuNjYsMS4zNS45My40NUM0Ljc3LDguNDgsOS43NSwyLjQ3LDE3Ljc1LDEuNTJBMjYuMjIsMjYuMjIsMCwwLDEsMzMsNC43MkM0MC42OSw4LjkzLDQ2LjI4LDE5LDQ3LDI3LjhjLjQ5LDYuNDUtMS45MiwxMi43NC03LjE3LDE2LjUxLTQuODgsMy40OC0xMS4xOCw0LTE2LjkzLDMuNTMtNi0uNS0xMi0yLjUyLTE2LjIxLTcuMThBMjMuMjgsMjMuMjgsMCwwLDEsMS4zMiwyMS45QzEuNDMsMjEsLjM5LDIwLjg5LjI4LDIxLjczWiIgc3R5bGU9ImZpbGw6IHJnYigyNiwgNDYsIDY4KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNjYWM2YmY7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxnIHN0eWxlPSJjbGlwLXBhdGg6IHVybCguYSkiPjxnPjxwYXRoIGQ9Ik0zLjE4LDI1LjE5YTIyLjEsMjIuMSwwLDAsMCw3LjIzLDIwLjI1YzUuMiw0LjM3LDExLjg4LDUuNjEsMTguMzQsNS41NkEyNS4xNSwyNS4xNSwwLDAsMCw0MCw0OC43OWExNy4zMywxNy4zMywwLDAsMCw4LjY1LTkuMjljMi43NC03LC41NS0xNS0zLTIwLjg0YTM1LjI1LDM1LjI1LDAsMCwwLTcuNzItOUMzMy4yNSw1LjgxLDExLjI5LTIuNDYsNC4yMiwxOS4zIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS43NywyMkEyMi4wOCwyMi4wOCwwLDAsMCw4LDQyLjJjNS4yLDQuMzIsMTEuODgsNS42MSwxOC4zNSw1LjU2YTI1LjExLDI1LjExLDAsMCwwLDExLjI4LTIuMjEsMTcuMzMsMTcuMzMsMCwwLDAsOC42NS05LjI5YzIuNzQtNywuNTUtMTUtMy0yMC44NGEzNS4yNSwzNS4yNSwwLDAsMC03LjcyLTlDMzAuODksMi41Nyw4LjkzLTUuNjQsMS44MSwxNi4xMiIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNlOGU2ZTM7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxwYXRoIGQ9Ik0uMjgsMjEuOUEyMi40NiwyMi40NiwwLDAsMCwxNi42NSw0Ny4yN2MxMC45LDMsMjUuMjUsMS4wOCwzMC0xMC4zNiw0LjU1LTEwLjgtMS45MS0yNC4xNC0xMC42OC0zMUMzMS43MSwyLjYyLDI1LjU4LDEsMjAuMjEsMSwxMC42MywxLjA1LDQuMjgsNy4zMiwxLjM3LDE1LjljLS4yNy43LjY2LDEuMy45My40M0M0Ljc3LDkuMTUsOS43NSwzLjM4LDE3Ljc1LDIuNDZBMjcsMjcsMCwwLDEsMzMsNS41NEM0MC42OSw5LjU5LDQ2LjI4LDE5LjMsNDcsMjcuNzNBMTcuMjEsMTcuMjEsMCwwLDEsMzkuODIsNDMuNkMzNC45NCw0NywyOC42NSw0Ny40NCwyMi45LDQ3Yy02LS40OC0xMi0yLjQzLTE2LjIxLTYuOTFhMjEuNzQsMjEuNzQsMCwwLDEtNS4zNy0xOEMxLjQzLDIxLjE5LjM5LDIxLjA5LjI4LDIxLjlaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTTMzLDIwLjI4YTcuMjYsNy4yNiwwLDAsMS0yLjEyLjU5LDMuNzcsMy43NywwLDAsMCwxLjYyLTIuMDksNy4zNyw3LjM3LDAsMCwxLTIuMzQuOTIsMy43MywzLjczLDAsMCwwLTEuMjMtLjg5LDMuNTMsMy41MywwLDAsMC0xLjQ3LS4zMSwzLjc0LDMuNzQsMCwwLDAtMy42OSwzLjc5LDQuMTIsNC4xMiwwLDAsMCwuMS44NiwxMC4zNiwxMC4zNiwwLDAsMS03LjYxLTQsMy44OCwzLjg4LDAsMCwwLDEuMTQsNS4wNywzLjY3LDMuNjcsMCwwLDEtMS42Ny0uNDl2LjA1YTMuNzgsMy43OCwwLDAsMCwzLDMuNzIsNCw0LDAsMCwxLTEsLjEyLDUuMzYsNS4zNiwwLDAsMS0uNy0uMDUsMy43LDMuNywwLDAsMCwzLjQ1LDIuNjIsNy4yNiw3LjI2LDAsMCwxLTQuNTgsMS42MkE2LjU1LDYuNTUsMCwwLDEsMTUsMzEuOGExMC4yNSwxMC4yNSwwLDAsMCw1LjY3LDEuN2M2Ljc4LDAsMTAuNDktNS43NiwxMC40OS0xMC43NywwLS4xNiwwLS4zMywwLS40OUE4LDgsMCwwLDAsMzMsMjAuMjhaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9nPjwvZz48L3N2Zz4="
+                    al
+                    t=""
+                /><br />
+                <span class="kaname">Rado Geogiev</span>
+                <span class="katwittername">@Rado_g</span>
+                <p>
+                    One thing we started using recently is @Mailtrap for our dev &
+                    staging environments. We were previously either turning email
+                    sending entirely off for staging or running SES + whitelist. Turns
+                    out, having a fake SMTP mailbox is great and you can test better
+                    with it.
+                </p>
+                <span class="katwittername">1:32 PM - Jan 06, 2021</span>
+            </div>
+            <div class="kacard">
+                <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJzaW5nbGUtdGVzdGltb25pYWxfX2ljb24gZC1ibG9jayBwb3NpdGlvbi1hYnNvbHV0ZSIgeG1sbnM6eGxpbms9Imh0dHBzOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MCA1MiI+PGRlZnM+PGNsaXBQYXRoIGNsYXNzPSJhIj48cmVjdCB5PSIxIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHN0eWxlPSJmaWxsOiBub25lOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6bm9uZTsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9jbGlwUGF0aD48L2RlZnM+PHBhdGggZD0iTTMuMTgsMjUuMTZhMjMuNSwyMy41LDAsMCwwLDcuMjMsMjEuMDZjNS4yLDQuNTQsMTEuODgsNS44NCwxOC4zNCw1Ljc4QTI0LjMzLDI0LjMzLDAsMCwwLDQwLDQ5LjcsMTcuNzcsMTcuNzcsMCwwLDAsNDguNjksNDBjMi43NC03LjI1LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM4LDlDMzMuMjUsNSwxMS4yOS0zLjU5LDQuMjIsMTkiIHN0eWxlPSJmaWxsOiByZ2IoMjYsIDQ2LCA2OCk7IC0tZGFya3JlYWRlci1pbmxpbmUtZmlsbDojY2FjNmJmOyIgZGF0YS1kYXJrcmVhZGVyLWlubGluZS1maWxsPSIiLz48cGF0aCBkPSJNLjc3LDIxLjg0QTIzLjQ4LDIzLjQ4LDAsMCwwLDgsNDIuODVjNS4yLDQuNDksMTEuODgsNS44NCwxOC4zNSw1Ljc4YTI0LjMxLDI0LjMxLDAsMCwwLDExLjI4LTIuMywxNy43NywxNy43NywwLDAsMCw4LjY1LTkuNjZjMi43NC03LjI0LjU1LTE1LjYxLTMtMjEuNjhBMzYuMywzNi4zLDAsMCwwLDM1LjYsNS42N0MzMC44OSwxLjYzLDguOTMtNi45MSwxLjgxLDE1LjcyIiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2U4ZTZlMzsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS4yOCwyMS43M2MtMS43NiwxMS45MSw1LDIzLjE0LDE2LjM3LDI2LjQsMTAuOSwzLjA4LDI1LjI1LDEuMTIsMzAtMTAuNzlDNTEuMjEsMjYuMTEsNDQuNzQsMTIuMjQsMzYsNS4xMSwzMS43MSwxLjY4LDI1LjU4LDAsMjAuMjEsMCwxMC42My4wNiw0LjI3LDYuNTcsMS4zNywxNS41Yy0uMjcuNzMuNjYsMS4zNS45My40NUM0Ljc3LDguNDgsOS43NSwyLjQ3LDE3Ljc1LDEuNTJBMjYuMjIsMjYuMjIsMCwwLDEsMzMsNC43MkM0MC42OSw4LjkzLDQ2LjI4LDE5LDQ3LDI3LjhjLjQ5LDYuNDUtMS45MiwxMi43NC03LjE3LDE2LjUxLTQuODgsMy40OC0xMS4xOCw0LTE2LjkzLDMuNTMtNi0uNS0xMi0yLjUyLTE2LjIxLTcuMThBMjMuMjgsMjMuMjgsMCwwLDEsMS4zMiwyMS45QzEuNDMsMjEsLjM5LDIwLjg5LjI4LDIxLjczWiIgc3R5bGU9ImZpbGw6IHJnYigyNiwgNDYsIDY4KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNjYWM2YmY7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxnIHN0eWxlPSJjbGlwLXBhdGg6IHVybCguYSkiPjxnPjxwYXRoIGQ9Ik0zLjE4LDI1LjE5YTIyLjEsMjIuMSwwLDAsMCw3LjIzLDIwLjI1YzUuMiw0LjM3LDExLjg4LDUuNjEsMTguMzQsNS41NkEyNS4xNSwyNS4xNSwwLDAsMCw0MCw0OC43OWExNy4zMywxNy4zMywwLDAsMCw4LjY1LTkuMjljMi43NC03LC41NS0xNS0zLTIwLjg0YTM1LjI1LDM1LjI1LDAsMCwwLTcuNzItOUMzMy4yNSw1LjgxLDExLjI5LTIuNDYsNC4yMiwxOS4zIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTS43NywyMkEyMi4wOCwyMi4wOCwwLDAsMCw4LDQyLjJjNS4yLDQuMzIsMTEuODgsNS42MSwxOC4zNSw1LjU2YTI1LjExLDI1LjExLDAsMCwwLDExLjI4LTIuMjEsMTcuMzMsMTcuMzMsMCwwLDAsOC42NS05LjI5YzIuNzQtNywuNTUtMTUtMy0yMC44NGEzNS4yNSwzNS4yNSwwLDAsMC03LjcyLTlDMzAuODksMi41Nyw4LjkzLTUuNjQsMS44MSwxNi4xMiIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsgLS1kYXJrcmVhZGVyLWlubGluZS1maWxsOiNlOGU2ZTM7IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGw9IiIvPjxwYXRoIGQ9Ik0uMjgsMjEuOUEyMi40NiwyMi40NiwwLDAsMCwxNi42NSw0Ny4yN2MxMC45LDMsMjUuMjUsMS4wOCwzMC0xMC4zNiw0LjU1LTEwLjgtMS45MS0yNC4xNC0xMC42OC0zMUMzMS43MSwyLjYyLDI1LjU4LDEsMjAuMjEsMSwxMC42MywxLjA1LDQuMjgsNy4zMiwxLjM3LDE1LjljLS4yNy43LjY2LDEuMy45My40M0M0Ljc3LDkuMTUsOS43NSwzLjM4LDE3Ljc1LDIuNDZBMjcsMjcsMCwwLDEsMzMsNS41NEM0MC42OSw5LjU5LDQ2LjI4LDE5LjMsNDcsMjcuNzNBMTcuMjEsMTcuMjEsMCwwLDEsMzkuODIsNDMuNkMzNC45NCw0NywyOC42NSw0Ny40NCwyMi45LDQ3Yy02LS40OC0xMi0yLjQzLTE2LjIxLTYuOTFhMjEuNzQsMjEuNzQsMCwwLDEtNS4zNy0xOEMxLjQzLDIxLjE5LjM5LDIxLjA5LjI4LDIxLjlaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PHBhdGggZD0iTTMzLDIwLjI4YTcuMjYsNy4yNiwwLDAsMS0yLjEyLjU5LDMuNzcsMy43NywwLDAsMCwxLjYyLTIuMDksNy4zNyw3LjM3LDAsMCwxLTIuMzQuOTIsMy43MywzLjczLDAsMCwwLTEuMjMtLjg5LDMuNTMsMy41MywwLDAsMC0xLjQ3LS4zMSwzLjc0LDMuNzQsMCwwLDAtMy42OSwzLjc5LDQuMTIsNC4xMiwwLDAsMCwuMS44NiwxMC4zNiwxMC4zNiwwLDAsMS03LjYxLTQsMy44OCwzLjg4LDAsMCwwLDEuMTQsNS4wNywzLjY3LDMuNjcsMCwwLDEtMS42Ny0uNDl2LjA1YTMuNzgsMy43OCwwLDAsMCwzLDMuNzIsNCw0LDAsMCwxLTEsLjEyLDUuMzYsNS4zNiwwLDAsMS0uNy0uMDUsMy43LDMuNywwLDAsMCwzLjQ1LDIuNjIsNy4yNiw3LjI2LDAsMCwxLTQuNTgsMS42MkE2LjU1LDYuNTUsMCwwLDEsMTUsMzEuOGExMC4yNSwxMC4yNSwwLDAsMCw1LjY3LDEuN2M2Ljc4LDAsMTAuNDktNS43NiwxMC40OS0xMC43NywwLS4xNiwwLS4zMywwLS40OUE4LDgsMCwwLDAsMzMsMjAuMjhaIiBzdHlsZT0iZmlsbDogcmdiKDI2LCA0NiwgNjgpOyAtLWRhcmtyZWFkZXItaW5saW5lLWZpbGw6I2NhYzZiZjsiIGRhdGEtZGFya3JlYWRlci1pbmxpbmUtZmlsbD0iIi8+PC9nPjwvZz48L3N2Zz4="
+                    al
+                    t=""
+                /><br />
+                <span class="kaname">Doug Black Jr</span>
+                <span class="katwittername">@dougblackjr</span>
+                <p>
+                    Can we all agree @Mailtrap is a gift to developers everywhere? It just works SO easily out of the box!!!!
+                </p>
+                <span class="katwittername">9:45 PM - Aug 11, 2020</span>
+            </div>
+        </div>
+    </div>`
+}
+
+export { navbar, footer, trust, boximg, silonavbar, bestclient};
