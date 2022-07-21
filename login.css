@@ -1,0 +1,94 @@
+
+#ammain{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#amsignup{
+    width: 40%;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+#amimg{
+    width: 40%;
+    height: 400px ;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+#amsignup>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid black;
+    width: 100%;
+   margin-top: 10px;
+   border-radius: 5px;
+   text-decoration-line: none;
+   color: black;
+   font-weight: bolder;
+   padding: 10px;
+}
+#amsignup>a>img{
+    width: 30px;
+    height: 30px;
+    
+}
+#amsignup>a:hover{
+    background-color: #566583;
+    color: white;
+}
+#b2>button,#ammainsignupbuton{
+background-color: #22d172;
+color: white;
+height: 50px;
+border: transparent;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bolder;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#b2>button:hover{
+background-color: #28ec80;
+}
+#am3{
+width:75%;
+margin: auto;
+}
+a{
+text-decoration-line: none;
+}
+
+#amloginbox,#amsignupbox{
+display: grid;
+text-align: left;
+}
+#amloginbox>input,#amsignupbox>input{
+height: 40px;
+border-radius: 5px;
+border: 1px solid;
+margin-bottom: 10px;
+}
+
+#b1{
+margin-top: 10px;
+}
+#b2{
+display: grid;
+}
+#a11{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+#amimg>img{
+    margin: auto;
+}
