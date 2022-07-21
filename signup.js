@@ -1,5 +1,5 @@
 import { navbar, footer, trust, boximg, silonavbar } from "./components/navbar.js" ;
-    document.getElementById("kanavbar").innerHTML = navbar() ; 
+    document.getElementById("kanavbar").innerHTML = silonavbar() ; 
     document.getElementById("kafooter").innerHTML = footer() ; 
 
     document.getElementById("b2").innerHTML=`<button id="amsignupbuton" class="a2signupbox">Sign Up With Your Email</button>`
