@@ -91,7 +91,7 @@ let navbar = () => {
                     </ul>
                 </div>
             </li>
-            <li><a href="#">Email API</a></li>
+            <li><a href="EmailAPI.html">Email API</a></li>
             <li><a href="#">Pricing</a></li>
             <li>
                 <a href="#"
