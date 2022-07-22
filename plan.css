@@ -1,0 +1,82 @@
+#nsSetContainer{
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid black; */
+    /* margin-left: 55%; */
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 15px 0px;
+}
+#nsTable{
+    display: grid;
+    width: 95%;
+    margin: auto;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    min-height: 300px;
+    border: 1px solid rgb(234, 231, 231);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.g1ja7syv{
+    font-size: 14px;
+    height: 140px;
+    text-align: left;
+}
+.childDiv{
+    /* border: 2px solid red; */
+    /* margin-top: 25px; */
+    /* padding-top: 30px; */
+    /* text-align: left; */
+    border-right: 1px solid rgb(234, 231, 231);
+    padding: 0px 20px 0px 20px ;
+}
+.childDivH1{
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.mainPrice sup{
+    font-size: 13px;
+    padding: 4px;
+}
+.nsPrice{
+    /* font-size: 16px; */
+    font-weight: bold;
+    margin-top: 35px;
+    text-align: center;
+}
+.nsPrice .mainPrice{
+    font-weight: bold;
+    font-size: 41px;
+}
+.nsSelectBtn{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.nsSelectBtn button{
+    background-color: #4c83ee;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: #fff;
+    font-size: .8125rem;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.15;
+    padding: 9px 15px;
+}
+.nsSelectBtn button:hover{
+    background-color: #6390ec;
+}
+.noOfEmails{
+    font-size: 15px;
+    margin-top: 23px;
+    text-align: center;
+}
+.nsMainContentDiv{
+    line-height: 25px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
