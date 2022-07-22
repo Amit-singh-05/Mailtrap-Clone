@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailtrap - Safe Email Testing</title>
+    <style>
+     #am190>a{
+            text-decoration-line: none;
+            color: #5D93FC;
+        }
+        #am190>a:hover{
+            text-decoration-line: underline;
+        }
+        #amaddemail{
+            display: grid;
+            width: 50%;
+        }
+        #amaddemail>input{
+            margin-bottom: 5px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        #amaddemail>button{
+            margin-bottom: 5px;
+            height: 35px;
+            border-radius: 5px;
+            border: transparent;
+            background-color: #5D93FC;
+            color: white;
+            font-size: larger;
+            font-weight: bold;
+           cursor: pointer;
+        }
+        #amdeleteemail{
+            display: grid;
+            width: 50%;
+        }
+        #amdeleteemail>input{
+            margin-bottom: 5px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        #amdeleteemail>button{
+            margin-bottom: 5px;
+            height: 35px;
+            border-radius: 5px;
+            border: transparent;
+            background-color: #5D93FC;
+            color: white;
+            font-size: larger;
+            font-weight: bold;
+           cursor: pointer;
+        }
+        #ammsilcontanner{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 10px;
+            gap: 10px;
+        }
+        #ammsilcontanner>div{
+            border: 1px solid rgb(93, 147, 252);
+            padding: 5px;
+            border-radius: 5px;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="am190">API (<a href="https://mailtrap.docs.apiary.io/#">Docs</a>)</h1>
+
+    <form id="amaddemail">
+        <h1>Add email</h1>
+        <input type="email" placeholder="Email" id="am191" required>
+        
+        <input type="text" placeholder="Name" id="am192" required>
+        
+        <input type="number" placeholder="ID" id="id" required>
+        <BUtton id="am194">Add</BUtton>
+    </form>
+    <form id="amdeleteemail">
+        <h1>Delete email</h1>
+        <input type="number" placeholder="ID" id="am195" required>
+        <BUtton id="am196">Delete</BUtton>
+    </form>
+    <div id="ammsilcontanner">
+      
+</body>
+</html>
+<script>
+document.querySelector("#am194").addEventListener("click",adddata);
+document.querySelector("#am196").addEventListener("click",deletedata);
+
+async function adddata(){
+    let data ={
+        Email:document.querySelector("#am191").value,
+        Name:document.querySelector("#am192").value,
+        id:+(document.querySelector("#id").value),
+    }
+
+    data=JSON.stringify(data);
+
+    let response=await fetch('http://127.0.0.1:3000/api/data',{
+        method:"POST",
+        body:data,
+        headers:{
+            'Content-Type':'application/json'
+        }
+    })
+    console.log(response)
+}
+
+
+async function deletedata(){
+    let itm=document.querySelector("#am195").value;
+
+    let response=await fetch(`http://127.0.0.1:3000/api/data/${itm}`,{
+        method:"DELETE",
+        headers:{
+            'Content-Type':'application/json'
+        }
+    })
+    let data = await response.json()
+    console.log(data)
+}
+</script>
