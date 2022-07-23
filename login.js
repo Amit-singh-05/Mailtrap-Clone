@@ -11,7 +11,7 @@ import { navbar, footer, trust, boximg, silonavbar } from "./components/navbar.j
             <label>Password</label>
             <input type="password" id="ampassword">`
             document.getElementById("b2").innerHTML=null
-            document.getElementById("b2").innerHTML=`<a href="#" id="ammainsignupbuton">Login</a>`
+            document.getElementById("b2").innerHTML=`<a href="sidebar.html" id="ammainsignupbuton">Login</a>`
             document.querySelector("#ammainsignupbuton").addEventListener("click",handlemainsignup)
     }
      //******************************************************    

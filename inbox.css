@@ -1,0 +1,71 @@
+#ammainbox{
+    width: 96%;
+    margin: auto;
+    padding: 15px;
+    
+   } 
+   #ammainbox>#ambox1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   #ammainbox>div>button{
+   height: 30px;
+   color:rgb(93, 147, 252) ;
+   border-radius: 5px;
+   border: 1px solid rgb(93, 147, 252);
+   background: transparent;
+   padding: 5px 8px;
+   cursor: pointer;
+   } 
+   #ammainbox>div>button:hover{
+    background: rgb(93, 147, 252);
+    color: white;
+   }
+   #amcontainer{
+    width: 100%;
+    padding: 5px;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 8px;
+   }
+   #amcontainer>#am001{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   #am002{
+    display: grid;
+    width: 100%;
+   }
+   #am003>td:first-child{
+    width: 10%;
+   }
+   #am003>td{
+    text-align: center;
+   }
+
+   #am004>td{
+    text-align: center;
+    background-color: gray;
+    color: white;
+   }
+   #amtbody{
+    width: 100%;
+    border: 1px solid gray;
+    
+   }
+   #am001>button{
+    height: 30px;
+   color:white ;
+   border-radius: 5px;
+   border: 1px solid rgb(93, 147, 252);
+   background: rgb(93, 147, 252);
+   padding: 5px 8px;
+   cursor: pointer;
+   }
+   #am001>button:hover{
+    background: white;
+    color: rgb(93, 147, 252);
+   }

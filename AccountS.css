@@ -1,0 +1,17 @@
+#hi_mainAS{
+    width: 720px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+#hi_first{
+    width: 600px;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 100;
+    cursor: pointer;
+
+}

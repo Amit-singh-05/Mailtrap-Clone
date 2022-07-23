@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .same {
+    border: 1px solid;
+} */
+
+p {
+    font-weight: 400;
+    color: #1a2e44;
+}
+
+h3 {
+    color: #1a2e44;
+}
+
+h4 {
+    color: #1a2e44;
+}
+
+h1 {
+    color: #1a2e44;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+#hi_main {
+    /* width: 10%; */
+    /* display: flex; */
+    margin-left: 5%;
+    padding: 20px;
+    padding-left: 30px;
+}
+#nsPaymentDeatils{
+    width: 100%;
+    /* border: 1px solid; */
+}
+#hi_first {
+    /* display: flex; */
+    margin-bottom: 10px;
+}
+
+#hi_first>img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+#hi_card {
+    /* width: 150%; */
+    height: auto;
+    border: 0.5px solid #c5c5c5;
+    padding: 20px;
+    border-radius: 5px;
+    /* padding-left: 10px; */
+}
+
+
+#hi_card_name {
+    width: 100%;
+    height: 30px;
+    border: 0.5px solid #c5c5c5;
+    outline: none;
+    border-radius: 5px;
+    /* margin-bottom: 15px; */
+    margin-top: 5px;
+}
+
+#hi_mm {
+    display: flex;
+    width: 100%;
+    border: 0.5px solid #c5c5c5;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 5px;
+
+}
+
+#hi_mm>input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 28px;
+    margin-left: 5px;
+}
+
+/* .fa{
+    width: 20px;
+    height: 10px;
+} */
+label {
+    font-size: 15px;
+    color: #1a2e44;
+}
+
+#year {
+    /* margin-top: -23px; */
+    /* margin-left: 410px; */
+    /* font-size: ; */
+    text-align: right;
+    color: rgb(152, 152, 152);
+    font-size: 11px;
+}
+
+button {
+    margin-top: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    color: white;
+    background-color: #4c83ee;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #658edf;
+}
+
+#updateshown {
+    width: 100%;
+
+}
+
+#updatediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8f8e6;
+    color: #22d172;
+    font-weight: 500;
+}
+
+#hi_msg{
+    color: red;
+    font-size: 13px;
+}

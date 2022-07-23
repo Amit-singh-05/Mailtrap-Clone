@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#kaContainerDo{
+    width: 96%;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+#kaContainerDo>span{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+#kaContainerDo>.kakacontainDomain{
+    width: 100%;
+    margin-top: 50px;
+    padding: 70px 0px;
+    border: 1px solid #d3d8d8;
+    border-radius: 8px;
+    background-color: #f8fafa;
+    text-align: center;
+}
+.kakacontainDomain>span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.kakacontainDomain>p{
+    margin: 10px 0px;
+}
+.kakacontainDomain>input{
+    margin-top: 20px;
+    width: 280px;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #c3c7c7;
+}
+.kakacontainDomain>button{
+    padding: 14px;
+    color: white;
+    background-color: #4c83ee;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.kakakacontain{
+    border: 1px solid #c8e1fa;
+    border-radius: 8px;
+    background-color: #f0f8fe;
+    padding: 20px;
+    margin: 17px 0px;
+}
+.kakakacontain>p{
+    font-size: 17px;
+    font-weight: 600;
+}
+.kakakacontain>p>span{
+    color: #4c83ee;
+}
+
+.kakakaspan{
+    font-weight: 1rem;
+    color: #4c83ee;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}

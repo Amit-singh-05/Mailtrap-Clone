@@ -1,0 +1,349 @@
+<html lang="en">
+<head>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="./inbox.css">
+    <link rel="stylesheet" href="./api.css">
+    <link rel="stylesheet" href="./sendingdomain.css">
+    <link rel="stylesheet" href="./emailcategory.css">
+    <link rel="stylesheet" href="./AccountS.css">
+    <link rel="stylesheet" href="./userManagement.css">
+    <link rel="stylesheet" href="./PAYMENT Method.css">
+    <link rel="stylesheet" href="./DASHBOARD.css">
+    <link rel="stylesheet" href="./plan.css">
+    <link rel="icon" href="https://mailtrap.io/wp-content/uploads/2021/04/cropped-favicon-196x196-1-32x32.png">
+    <link rel="stylesheet" href="./settings.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/619198fec4.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="nsContainer" style="display:flex" width="100%">
+        
+            <aside>
+                <div class="navbar">
+                    <nav  id="nsLists" class='animated bounceInDown'>
+                        <div style=" margin-top:20px" id="nsIcon">
+                            <svg width="112" height="34" viewBox="0 0 112 34" fill="none" class="s1akbbek"><path d="M5.646 24.27l-2.808 1.666c-.38.25-.207.68 0 .767l10.904 6.11c.644.36 1.437.36 2.081 0l11.048-6.19c.335-.199.28-.602 0-.738l-2.968-1.604c-.25-.165-.81-.11-1.008.025l-7.072 3.962c-.644.361-1.437.361-2.081 0l-7.135-3.997c-.266-.164-.687-.155-.961 0z" fill="#F3F3F3"></path><path d="M13.743.27a2.137 2.137 0 012.082 0l8.78 4.92c.35.178.382.654 0 .869l-1.746.974a2.999 2.999 0 01-2.927-.004l-4.107-2.301a2.137 2.137 0 00-2.082 0L9.631 7.032c-.91.51-2.019.51-2.93.003l-1.813-1.01c-.325-.14-.393-.554 0-.793L13.743.271z" fill="#fff"></path><path d="M28.525 7.676a2.01 2.01 0 011.04 1.75v14.232c0 .705-.44.836-.911.59l-3.252-1.755v-9.569l-9.579 5.367c-.643.361-1.437.361-2.081 0l-9.579-5.367v9.568L1.21 24.246C.857 24.47 0 24.541 0 23.658V9.425a2.01 2.01 0 011.04-1.75c1.037-.542 2.108 0 2.108 0l11.635 6.534 11.616-6.533s1.032-.622 2.126 0z" fill="#22d172"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M70.4 6.558a1.415 1.415 0 100 2.83 1.415 1.415 0 000-2.83zm3.617 0a.14.14 0 00-.14.14v13.895c0 .077.063.14.14.14h2.15a.14.14 0 00.139-.14V6.698a.14.14 0 00-.14-.14h-2.149zm4.761 0a.14.14 0 00-.14.14v13.895c0 .077.063.14.14.14h2.149a.14.14 0 00.14-.14v-7.414h2.173a.14.14 0 00.14-.14v-2.056a.14.14 0 00-.14-.14h-2.173V6.699a.14.14 0 00-.14-.14h-2.149zM45.18 10.42a4.289 4.289 0 00-4.288 4.289v5.884c0 .077.062.14.14.14h2.148a.14.14 0 00.14-.14v-5.884a1.86 1.86 0 113.721 0v5.884c0 .077.063.14.14.14h2.149a.14.14 0 00.14-.14v-5.884a1.86 1.86 0 113.721 0v5.884c0 .077.063.14.14.14h2.149a.14.14 0 00.14-.14v-5.884a4.289 4.289 0 00-7.364-2.99 4.277 4.277 0 00-3.075-1.3zm16.809 0a5.205 5.205 0 00-5.206 5.205v.217a5.205 5.205 0 005.206 5.205c1.032 0 1.981-.362 2.776-.933v.479c0 .077.063.14.14.14h2.149a.14.14 0 00.14-.14v-4.968a5.205 5.205 0 00-5.206-5.205zm32.595 0a5.205 5.205 0 00-5.205 5.205v.217a5.205 5.205 0 005.205 5.205c1.012 0 2.011-.451 2.777-1.03v.576c0 .077.062.14.14.14h2.148a.14.14 0 00.14-.14v-4.968a5.205 5.205 0 00-5.205-5.205zm12.211 0a5.205 5.205 0 00-5.205 5.205v9.066c0 .077.062.14.139.14h2.149a.14.14 0 00.14-.14v-4.446A5.205 5.205 0 00112 15.842v-.217a5.205 5.205 0 00-5.205-5.205zm-18.154.343a4.625 4.625 0 00-4.625 4.626v5.204c0 .077.062.14.14.14h2.148a.14.14 0 00.14-.14v-5.204c0-1.214.984-2.197 2.197-2.197a.14.14 0 00.14-.14v-2.149a.14.14 0 00-.14-.14zm-19.291.08a.14.14 0 00-.14.14v9.61c0 .077.062.14.14.14h2.149a.14.14 0 00.14-.14v-9.61a.14.14 0 00-.14-.14h-2.15zm-10.138 4.782a2.777 2.777 0 015.553 0v.217a2.777 2.777 0 11-5.553 0v-.217zm32.595 0a2.777 2.777 0 115.554 0v.217a2.777 2.777 0 01-5.554 0v-.217zm12.211 0a2.777 2.777 0 115.554 0v.217a2.777 2.777 0 01-5.554 0v-.217z" fill="#fff"></path><path d="M43.124 30.13c.967 0 1.783-.728 1.783-1.949 0-1.22-.816-1.95-1.783-1.95-.602 0-1.006.262-1.236.659h-.016v-2.425h-.776v5.547h.776v-.539h.016c.23.396.634.658 1.236.658zm-.166-.76c-.681 0-1.125-.491-1.125-1.189 0-.697.444-1.188 1.125-1.188.682 0 1.125.49 1.125 1.188s-.443 1.189-1.125 1.189zM48.293 26.35l-.975 2.402-1.006-2.401h-.928l1.538 3.328-.88 1.918h.824l2.283-5.246h-.856zM54.422 26.24h-.056c-.618 0-1.038.364-1.212.911h-.016v-.8h-.777v3.66h.777v-1.624c0-.871.404-1.236 1.165-1.236h.119v-.911zM56.72 30.13c.603 0 1.007-.26 1.237-.657h.016v.539h.776V26.35h-.776v.539h-.016c-.23-.397-.634-.658-1.236-.658-.967 0-1.784.729-1.784 1.95 0 1.22.817 1.949 1.784 1.949zm.167-.76c-.682 0-1.125-.491-1.125-1.189 0-.697.443-1.188 1.125-1.188.681 0 1.125.49 1.125 1.188s-.444 1.189-1.125 1.189zM60.804 24.544h-.95v.95h.95v-.95zm-.864 5.468h.777V26.35h-.777v3.66zM62.718 24.465h-.776v5.547h.776v-5.547zM65.037 30.13c.855 0 1.426-.364 1.426-1.109 0-.491-.254-.808-.73-1.03l-.68-.325c-.318-.15-.42-.261-.42-.436 0-.166.11-.277.451-.277.357 0 .697.119.975.238l.317-.674a3.214 3.214 0 00-1.268-.285c-.8 0-1.3.364-1.3 1.038 0 .42.214.792.769 1.054l.666.325c.309.15.388.261.388.412 0 .23-.198.34-.57.34-.437 0-.825-.15-1.166-.348l-.348.69c.42.245.966.388 1.49.388zM71.64 26.35l-.737 2.64-.848-2.64h-.752l-.848 2.64-.737-2.64h-.856l1.228 3.662h.713l.88-2.623.872 2.623h.713l1.228-3.661h-.856zM74.752 30.13c.603 0 1.007-.26 1.237-.657h.016v.539h.776V26.35h-.776v.539h-.016c-.23-.397-.634-.658-1.237-.658-.966 0-1.783.729-1.783 1.95 0 1.22.817 1.949 1.784 1.949zm.167-.76c-.682 0-1.125-.491-1.125-1.189 0-.697.443-1.188 1.125-1.188.681 0 1.125.49 1.125 1.188S75.6 29.37 74.92 29.37zM79.993 26.24h-.055c-.619 0-1.039.364-1.213.911h-.016v-.8h-.776v3.66h.776v-1.624c0-.871.404-1.236 1.165-1.236h.119v-.911zM82.379 26.232c-1.173 0-1.87.848-1.87 1.957 0 1.157.745 1.942 1.91 1.942.903 0 1.386-.5 1.656-.872l-.547-.515c-.182.246-.523.642-1.125.642-.626 0-1.078-.428-1.11-1.078h2.837v-.127c0-1.18-.634-1.95-1.751-1.95zm-.047.713c.554 0 .927.293.958.8h-1.957c.095-.53.475-.8.999-.8z" fill="#AEBDC9"></path></svg>
+                        </div>
+                        <ul class="nav nav-list" id="nsAllList">
+                            
+                            <li class='sub-menu'><a href='#settings'><span style="transform: translateY(25%) rotate(-45deg);font-weight: 150;" class="material-symbols-outlined">
+                                send
+                                </span> Email API<i  class="fa fa-solid fa-angle-right right"></i></a>
+                                <ul>
+                                    <!-- <li name="logs"><a class="page" >Email Logs</a></li> -->
+                                    <!-- <li name="stats"><a class="page " >Stats</a></li> -->
+                                    <!-- <li name="mailbox"><a class="page" >Mailbox Provider &amp; Privacy</a></li> -->
+                                    <li name="email"><a class="page" >Email Categories</a></li>
+                                    <li name="domain"><a class="page" >Sending Domains</a></li>
+                                    <!-- <li name="suppression"><a class="page" >Suppressions</a></li> -->
+                                </ul>
+                            </li>
+                            <li class='sub-menu'><a href='#message'>
+                                <span style="font-weight: 150 ;transform: translateY(25%) rotate(0); " class="material-symbols-outlined">
+                                    mail_lock
+                                    </span> Sandbox<i class='fa fa-solid fa-angle-right right'></i></a>
+                                <ul >
+                                    <li  name="inbox"><a class="page ancActive" href='#'>
+                                        <span style="font-weight: 110 ;transform: translateY(25%) rotate(0); " class="material-symbols-rounded">
+                                            inbox
+                                            </span> Inboxes</a></li>
+                                    <li  name="api"><a class="page" href='#'>
+                                        <span style="font-weight: 110 ;transform: translateY(25%) rotate(0); " class="material-symbols-rounded">
+                                            settings
+                                            </span> API</a></li>
+                                    <!-- <li><a class="page" href='#settings'>Network Status</a></li> -->
+                                </ul>
+                            </li>
+                            <li class='sub-menu'><a href='#message'>
+                                <span style="font-weight: 150 ;transform: translateY(25%) rotate(0); " class="material-symbols-outlined">
+                                    credit_card
+                                    </span> Billing<i class='fa fa-solid fa-angle-right right'></i></a>
+                                <ul>
+                                    <li name="dashboard"><a class="page" href='#'>Dashboard</a></li>
+                                    <li name="plans"><a class="page" href='#'>Plans</a></li>
+                                    <li name="payment"><a class="page" href='#'>Payment Method</a></li>
+                                    <li name="setting"><a class="page" href='#'>Settings</a></li>
+                                </ul>
+                            </li>
+                            <li >
+                                <ul><li name="management"><a class="page" href="#">
+                                    <span style="font-weight: 150 ;transform: translateY(25%) rotate(0); " class="material-symbols-outlined">
+                                        person_filled
+                                        </span> User Management</a></li></ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li name="accountSetting"><a class="page" href="#">
+                                        <span style="font-weight: 150 ;transform: translateY(25%) rotate(0); " class="material-symbols-outlined">
+                                            description
+                                            </span>Account Settings</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            <main width="100%">
+                <div class="card logs" style=" border: 2px solid green;margin-left: 50%;">
+                    <div class="title"><h1 style="width: 100%;"> HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII</h1></div>
+                    <div class="content"><h1>This is Email Logs</h1></div>
+                </div>
+                <div class="card stats">
+                    <div class="title">Stats</div>
+                    <div class="content"><h1>This is Stats</h1></div>
+                </div>
+                <div class="card mailbox">
+                    <div class="title">Mailbox Provider</div>
+                    <div class="content"><h1>This is Mailbox Provider</h1></div>
+                </div>
+                <div class="card email">
+                    <div class="title">Email</div>
+                    <div id="nsEmailCategories" style="margin-left: 15%;width:83%;position:fixed" class="content">
+                        
+                </div>
+                </div>
+                <div class="card domain">
+                    <div class="title">Sending Domains</div>
+                    <div style="    width: 180%;
+                    margin-left: 40%;" class="content"><div id="kaContainerDo">
+                        <span>Sending Domains</span>
+                        <div class="kakacontainDomain">
+                            <span>Hey, Please Set up Your Domain</span>
+                            <p>Connect your domain to Mailtrap to start sending emails. Usually, your domain is your company's website.</p>
+                            <p>We handle sending and data management, but the emails are sent from your domain name.</p>
+                            <input type="text" placeholder="mydomain.com">
+                            <button>Add Your Domain</button>
+                            <p>Enter domain name, click Add, and follow the steps</p>
+                        </div>
+                        <div class="kakakacontain">
+                            <p>Migrating from another solution? Don't forget to <span>add your supperssion list</span></p>
+                        </div>
+                        <p class="kakakaspan">Learn more about Mailtrap Sending Beta</p>
+                    </div></div>
+                </div>
+                <div class="card suppression">
+                    <div class="title">Suppressions</div>
+                    <div class="content"><h1>This is Suppressions Page</h1></div>
+                </div>
+                <div class="card inbox active">
+                    <div class="title"><div style="display: flex;justify-content: space-between;margin-bottom: 10px; padding-top: 10px;
+                        width: 85%;
+                        font-weight: bold;
+                        border-bottom: 0.5px solid rgb(243, 240, 240);
+                        /* border: 1px solid black; */
+                        margin-left: 15%;
+                        position: fixed;">
+                        <p class="nsNavbarHeading"> Sandbox  >  Inbox</p>
+                    <h3 style="padding-right: 40px;" class="nsUserName6"></h3>
+                    </div></div>
+                    <div style="width: 85%;
+                    margin-left: 14%;
+                    position: fixed;" class="content">
+                        <div id="ammainbox">
+                            <div id="ambox1">
+                            <h1 style="margin-top: 20px;">Projects</h1>
+                            <button id="amaddproject">Add Project</button>
+                            </div>
+                            <div id="amcontainer">
+                                <div id="am001">
+                                    <h3>My Project :</h3>
+                                    <button id="amaddproject">Add Inbox</button>
+                                </div>
+                                
+                                <div id="am002">
+                                    <table>
+                                        <thead>
+                                            <tr id="am003">
+                                                <td>S.no</td>
+                                                <td>Name</td>
+                                                <td>Email</td>
+                                                <td>ID</td>
+                                            </tr>
+                                        </thead>
+                                        <div >
+                                            <tbody id="amtbody">
+                                            </tbody>
+                                        </div>
+                                       
+                                    </table>
+                                </div> 
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card api">
+                    <div class="title">API</div>
+                    <div id="nsApi" style="margin-left: 19%;
+                    width: 100%;
+                    position: fixed;" class="content">
+                        
+                    </div>
+                </div>
+                <div class="card dashboard">
+                    <div style="    width: 81%;
+                    margin-left: 15%;
+                    position: fixed;" class="title"><div style="background: rgb(255, 255, 255);;padding: 12px;display: flex; justify-content: space-between;">
+                        <p class="nsNavbarHeading"> Billing</p>
+                        <h3 style="padding-right: 40px;" class="nsUserName1"></h3>
+                    </div></div>
+                    <div id="nsDashboard" style="width:100%;margin-left: 18%; ;padding-top: 5%; " class="content"></div>
+                </div>    
+                <div class="card plans">
+                    <div style="padding: 10px;" class="title">
+                        <div style="display: flex;justify-content:space-between;">
+                            <p class="nsNavbarHeading"> Billing  >  Email Testing Plan</p>
+                        <h3 style="padding-right: 40px;" class="nsUserName2"></h3>
+                        </div>
+                    </div>
+                    <div class="nsSetting content" >
+                        <div id="nsSetContainer"></div>
+                        </div>
+                    </div>
+                <div  class="card payment">
+                    <div style="width: 85%;
+                    margin-left: 15%;
+                    position: fixed;"  class="title">
+                    <div style="display: flex;justify-content: space-between;padding: 12px;">
+                        <p class="nsNavbarHeading"> Billing  >  Payment Method</p>
+                        <h3 style="padding-right: 40px;" class="nsUserName3"></h3>
+                    </div>    
+                </div>
+                    <div id="nsPayment" style="width:100% ;padding-top: 20px;" class="content">
+                </div> 
+                </div>
+                <div class="card setting">
+                    <div class="title">
+                        <div style="display: flex; justify-content: space-between;">
+                            <p class="nsNavbarHeading"> Billing  >  Payment Setting</p>
+                            <h3 style="padding-right: 40px;" class="nsUserName4"></h3>
+                        </div>
+                        
+                    </div>
+                    <div id="nsSetting" class="content"></div>
+                </div> 
+                <div class="card management">
+                    <div style="width: 448%;
+                    
+                    margin-left: 120%;padding:10px" class="title">
+                        <div style="display: block; justify-content: space-between;">
+                            <div style="display: flex;justify-content: space-between;">
+                                <p class="nsNavbarHeading"> User Management</p>
+                            <h3 style="padding-right: 40px;" class="nsUserName5"></h3>
+                            </div>
+                        </div>
+                </div>
+                    <div id="nsManagement" style="width:100% ;" class="content"></div>
+                </div> 
+                <div  class="card accountSetting">
+                    <div style="width: 140%;
+                    margin-left: 33%;
+                    
+                    /* position: fixed; */
+                    padding-top: 10px;" class="title">
+                    <div style="display: flex;justify-content: space-between;">
+                        <p class="nsNavbarHeading">Home > Setting</p>
+                        <button style="margin-top: 0px;" id="nsLogOutButton">LogOut</button> 
+                    </div>
+                      
+                </div>
+                    <div id="nsAccountSetting"></div>
+                    
+                </div> 
+            </main>
+            
+    </div>
+</body>
+</html>
+
+<script type="module" src="./sidebar.js"></script>
+<script>
+    let url = `http://127.0.0.1:3000/api/data`
+
+    async function getdata(){
+        let result = await fetch(url);
+        let data = await result.json() ; 
+        console.log(data) ; 
+
+        appandDATA(data)
+    }
+    
+
+function appandDATA(data){
+data.forEach(function(element){
+    let tr = document.createElement("tr");
+    tr.setAttribute("id","am004")
+    let td1=document.createElement("td");
+    let td2=document.createElement("td");
+    td2.innerText=element.Name
+    let td3=document.createElement("td");
+    td3.innerText=element.Email
+    let td4=document.createElement("td");
+    td4.innerText=element.id
+    td1.innerText=element.s
+        tr.append(td1,td2,td3,td4)
+    
+    
+   
+  
+
+    
+    document.querySelector("#amtbody").append(tr)
+});
+    }
+    getdata()
+    
+
+</script>
+<!-- <script>
+    document.querySelector("#am194").addEventListener("click",adddata);
+    document.querySelector("#am196").addEventListener("click",deletedata);
+    
+    async function adddata(){
+        let data ={
+            s:+(document.querySelector("#am189").value),
+            Email:document.querySelector("#am191").value,
+            Name:document.querySelector("#am192").value,
+            id:+(document.querySelector("#id").value),
+        }
+    
+        data=JSON.stringify(data);
+    
+        let response=await fetch('http://127.0.0.1:3000/api/data',{
+            method:"POST",
+            body:data,
+            headers:{
+                'Content-Type':'application/json'
+            }
+        })
+        console.log(response)
+    }
+    
+    
+    async function deletedata(){
+        let itm=document.querySelector("#am195").value;
+    
+        let response=await fetch(`http://127.0.0.1:3000/api/data/${itm}`,{
+            method:"DELETE",
+            headers:{
+                'Content-Type':'application/json'
+            }
+        })
+        let data = await response.json()
+        console.log(data)
+    }
+    </script> -->
+
+<script src="./Acountsetting.js"></script>
+<script src="./DASHBOARD.js"></script>
+<script src="./PAYMENT Method.js"></script>
+
+
