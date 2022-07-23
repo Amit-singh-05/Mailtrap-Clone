@@ -1,0 +1,160 @@
+/* root{
+	--navbar-width:(500px) ; 
+} */
+body {
+	background-color: #fff;
+	font-size: 14px;
+    
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+}
+body{
+	display: flex;
+}
+aside{
+	/* margin-left: 15%; */
+	/* width: 300px; */
+	float: left;
+	/* width: var(--navbar-width); */
+}
+nav {
+	/* position: fixed;
+    left: 0;
+    height: 100%;
+	/* margin: 50px; */
+	width: 15%; 
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height:100%;
+	/* position: relative; */
+    /* border: 2px solid red; */
+    /* width: 15%; */
+    /* float: left; */
+	/* display:grid; */
+    background: #1a2e44;
+    /* transition: left 0.4s ease; */
+    position:fixed;
+    
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    
+}
+section{
+	display: none;
+}
+/* nav ul li { */
+ /* Sub Menu */
+ /* } */
+nav ul li a {
+	display: block;
+	background: #1a2e44;
+	padding: 10px 15px;
+	color: #a3abb4;
+	text-decoration: none;
+	/* -webkit-transition: 0.1s linear; */
+	/* -moz-transition: 0.2s linear; */
+	/* -ms-transition: 0.2s linear; */
+	/* -o-transition: 0.2s linear; */
+	/* transition: 0.2s linear; */
+}
+nav ul li a:hover,.ancActive {
+	background: #f8f8f8;
+	color: #515151;
+    background: #3b4c5f;
+    color: white;
+	border-left: 4px solid #3498db;
+    
+}
+/* nav ul li a::after{
+    background: #f8f8f8;
+	color: #515151;
+    background: #3b4c5f;
+    color: white;
+	border-left: 4px solid #3498db;
+} */
+nav ul li a .fa {
+	/* transform: translateY(50%) rotate(0); */
+	font-size: 10px;
+	margin-top: 15px;
+	/* width: 16px; */
+	/* text-align: right; */
+	margin-right: 5px;
+	float:right;
+    
+}
+nav ul ul {
+	background-color:#ebebeb;
+}
+
+nav ul li ul li a {
+	background: #1a2e44;
+	border-left: 4px solid transparent;
+	padding: 10px 20px;
+}
+
+nav ul li ul li a:hover,.ancActive {
+	background: #3b4c5f;
+    color: white;
+	border-left: 4px solid #3498db;
+}
+i.fa-angle-down{ 
+    transform: translateY(-1%) rotate(90deg);
+}
+#nsIcon{
+    text-align: center;
+    margin-bottom: 50px;
+} 
+.card{
+	/* padding: 30px; */
+	display: none;
+}
+.card.active{
+	display: block;
+}
+.content{
+    width: 85%;
+    margin-left: 15%;
+	/* border: 2px solid pink; */
+}
+/* .content h1{
+	/* width: 180%; */
+	/* margin-left: 50px; */
+/* } */ 
+.page{
+	cursor: pointer;
+	font-size: 15px;
+}
+.title{
+	padding-top: 10px;
+	width: 85%;
+	font-weight: bold;
+	border-bottom: 0.5px solid rgb(243, 240, 240);
+	/* border: 1px solid black; */
+	margin-left: 15%;
+}
+.nsNavbarHeading{
+	font-weight: bold;
+}
+.title button{
+	cursor: pointer;
+}
+.sub-menu{
+	font-size: 15px;
+}
+.ancActive{
+	border-left: 4px solid #3498db;
+}
+main{
+	width: 100%;
+}
