@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#kacontainer{
+    width: 96%;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+#kacontainer>.kacate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#kacontainer>.kacate>span:first-child{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#kacontainer>.kainput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.kainput>span{
+    color: rgb(34, 128, 235);
+}
+
+#kacontainer>div>input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.katable{
+    display: flex;
+}
+.katable>span{
+    color: grey;
+    padding-right: 20px;
+}
+.katable>span:hover{
+    color: black;
+}
+.kasts{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.kasendmail{
+    font-size: 18px;
+    font-weight: 550;
+    margin: 15px 0px;
+    color: rgb(28, 26, 26);
+}
+
+.kasendp{
+    font-weight: 550;
+}
+.kasts>img{
+    width: 15%;
+    margin: auto;
+}
+.kasts>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.kasts>div>div{
+    padding: 30px 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.kasts>div>div>img{
+    width: 20px;
+    margin-right: 90px;
+}
+
+.kabtn{
+    width: 100%;
+    margin-top: 20px;
+}
+.kakabtn{
+    margin-left: 42%;
+    padding: 11px 13px;
+    color: white;
+    background: #4c83ee;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
